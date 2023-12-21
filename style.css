@@ -1,0 +1,30 @@
+* {
+  padding: 40px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.container:hover {
+  transform: scale(1.1); /* Increase the scale on hover */
+}
+.ins {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+}
+.container h1 {
+  margin-bottom: 40px;
+}
+p {
+  font-size: 20px;
+}
+img:hover {
+  transform: scale(1.2); /* Scale the image by 20% */
+  transition: transform 0.3s ease; /* Add a smooth transition for the scaling effect */
+}
