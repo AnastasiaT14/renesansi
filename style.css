@@ -28,3 +28,29 @@ img:hover {
   transform: scale(1.2); /* Scale the image by 20% */
   transition: transform 0.3s ease; /* Add a smooth transition for the scaling effect */
 }
+@media screen and (max-width: 767px) {
+  * {
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .container:hover {
+    transform: scale(0.5); /* Increase the scale on hover */
+  }
+  .container h1 {
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 10px;
+  }
+  img:hover {
+    transform: scale(0.6); /* Scale the image by 20% */
+    transition: transform 0.3s ease; /* Add a smooth transition for the scaling effect */
+  }
+}
