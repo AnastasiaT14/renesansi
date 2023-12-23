@@ -50,17 +50,11 @@ img:hover {
   .ins {
     display: flex;
   }
-  .container:hover {
-    transform: scale(0.3); /* Increase the scale on hover */
-  }
+
   .container h1 {
     margin-bottom: 20px;
   }
   p {
     font-size: 10px;
-  }
-  img:hover {
-    transform: scale(0.2); /* Scale the image by 20% */
-    transition: transform 0.3s ease; /* Add a smooth transition for the scaling effect */
   }
 }
