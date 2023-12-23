@@ -1,7 +1,10 @@
 * {
-  padding: 40px;
+  padding: 0;
   margin: 0 auto;
   box-sizing: border-box;
+}
+.big-container {
+  padding: 40px;
 }
 .container {
   display: flex;
@@ -9,6 +12,7 @@
   margin-bottom: 80px;
   border-radius: 20px;
   border: 2px solid black;
+  padding: 30px;
 }
 .container:hover {
   transform: scale(1.1); /* Increase the scale on hover */
@@ -29,19 +33,25 @@ img:hover {
   transition: transform 0.3s ease; /* Add a smooth transition for the scaling effect */
 }
 @media screen and (max-width: 767px) {
-  * {
+  .big-container {
     padding: 20px;
-    margin: 0 auto;
-    box-sizing: border-box;
   }
   .container {
     display: flex;
     margin-bottom: 40px;
     border-radius: 10px;
     border: 1px solid black;
+    padding: 20px;
+  }
+  .ins img {
+    width: 100px;
+    height: 70px;
+  }
+  .ins {
+    display: flex;
   }
   .container:hover {
-    transform: scale(0.5); /* Increase the scale on hover */
+    transform: scale(0.3); /* Increase the scale on hover */
   }
   .container h1 {
     margin-bottom: 20px;
@@ -50,7 +60,7 @@ img:hover {
     font-size: 10px;
   }
   img:hover {
-    transform: scale(0.6); /* Scale the image by 20% */
+    transform: scale(0.2); /* Scale the image by 20% */
     transition: transform 0.3s ease; /* Add a smooth transition for the scaling effect */
   }
 }
